@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "DosisBold";
+	src: url("Dosis/DosisBold/Dosis-Bold.ttf");
+}
+
+@font-face {
+	font-family: "DosisMedium";
+	src: url("Dosis/DosisMedium/Dosis-Medium.ttf");
+}
+
+@font-face {
+	font-family: "OswaldRegular";
+	src: url("Oswald/OswaldRegular/Oswald-Regular.ttf");
+}
+
+@font-face {
+	font-family: "OswaldBold";
+	src: url("Oswald/OswaldBold/Oswald-Bold.ttf");
+}

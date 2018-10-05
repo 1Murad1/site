@@ -1,0 +1,537 @@
+                    /*GENERAL BEGIN*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	box-sizing: border-box;
+	padding-bottom: 3.846153846153846vw;
+}
+
+.section1 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	width: 87.69230769230769vw;
+	box-sizing: border-box;
+	padding-top: 4.307692307692308vw;
+}
+
+.block1 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.block1 h1 {
+	padding-bottom: 3.076923076923077vw;
+	color: #7ea2b3;
+	font-size: 3.076923076923077vw;
+	line-height: 3.846153846153846vw;
+	font-family: "OswaldRegular";
+	text-transform: uppercase;
+	letter-spacing: 0.3846153846153846vw;
+}
+
+.wrapper {
+	width: 87.69230769230769vw;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+ .image {
+	width: 43.84615384615385vw;
+}
+
+ .image img {
+	width: 43.84615384615385vw;
+}
+
+ .description {
+	width: 43.84615384615385vw;
+}
+
+.image {
+	position: relative;
+	z-index: -2;
+}
+
+.description {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+
+.description h2 {
+	font-family: "DosisBold";
+	font-size: 1.846153846153846vw;
+	line-height: 2.307692307692308vw;
+	color: #7ea2b3;
+	padding-bottom: 1.023076923076923vw;
+	padding-top: 4.461538461538462vw;
+}
+
+.description p {
+	font-size: 1.384615384615385vw;
+	line-height: 1.846153846153846vw;
+	color: #6d6d6d;
+	white-space: pre-line;
+	padding-bottom: 1.923076923076923vw;
+	font-family: "DosisMedium";
+}
+
+.description .button {
+	width: 15.7vw;
+	background: #97b621;
+	border-radius: 50vw;
+}
+
+.description .button a {
+	box-sizing: border-box;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.230769230769231vw;
+	line-height: 1.692307692307692vw;
+	padding: 1.384615384615385vw 2.230769230769231vw;
+	color: #fff;
+	font-family: "OswaldRegular";
+	letter-spacing: 0.1vw;
+}
+
+.description::before {
+	content: '';
+	position: absolute;
+	top: 3.076923076923077vw;
+	right: 0;
+	left: -6.153846153846154vw;
+	bottom: -3.076923076923077vw;
+	background: #f6fcff;
+	width: 50vw;
+	z-index: -1;
+	box-shadow: -0.9992307692307692vw 0.5769230769230769vw 2.307692307692308vw 0vw rgba(126, 162, 179, 0.42);
+}
+
+.block2 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 6.153846153846154vw;
+}
+
+.block2 .description1 {
+	padding-left: 6.153846153846154vw;
+}
+
+.description1::before {
+	left: 0;
+	right: -6.153846153846154vw;
+	box-shadow: 1.045769230769231vw 0.4876153846153846vw 2.307692307692308vw 0vw rgba(126, 162, 179, 0.42);
+}
+
+.block2 .button1 {
+	width: 18vw;
+}
+
+.block3 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 6.153846153846154vw;
+}
+
+.block3 .button2 {
+	width: 12.7vw;
+}
+
+.block4 {
+	margin-top: 6.153846153846154vw;
+	margin-bottom: 3.846153846153846vw;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+
+.block4 .button {
+	width: 22vw;
+	border: 0.1538461538461538vw solid #97b621;
+	border-radius: 50vw;
+	position: relative;
+}
+
+.block4 .button a {
+	box-sizing: border-box;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.230769230769231vw;
+	line-height: 1.692307692307692vw;
+	padding: 1.384615384615385vw 2.230769230769231vw;
+	color: #97b621;
+	font-family: "OswaldRegular";
+	letter-spacing: 0.1vw;
+}
+
+.block4 .button a::before {
+	content: '';
+	position: absolute;
+	left: 2.307692307692308vw;
+	top: 1.592308vw;
+	width: 0;
+	height: 0;
+	border-top: 0.6692307692307692vw solid transparent;
+	border-left: 1.038461538461538vw solid #97b621;
+	border-bottom: 0.6692307692307692vw solid transparent;
+}
+
+.section2 {
+	background: #f7f9ee;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+
+.page-wrapper {
+	width: 87.69230769230769vw;
+	box-sizing: border-box;
+	padding-top: 3.846153846153846vw;
+	padding-bottom: 3.846153846153846vw;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.page-wrapper h1 {
+	color: #7ea2b3;
+	font-size: 3.076923076923077vw;
+	line-height: 3.846153846153846vw;
+	font-family: "OswaldRegular";
+	text-transform: uppercase;
+	letter-spacing: 0.3846153846153846vw;
+}
+
+.holder {
+	width: 87.69230769230769vw;			
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3.076923076923077vw;
+}
+
+.holder .box {
+	width: 20.15384615384615vw;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.holder .box h2 {
+	font-family: "DosisBold";
+	font-size: 1.846153846153846vw;
+	line-height: 2.307692307692308vw;
+	color: #7ea2b3;
+	padding-top: 1.846153846153846vw;
+	padding-bottom: 1.846153846153846vw;
+}
+
+.box .image1 {
+	position: relative;
+}
+
+.box .image1 .descr {
+	width: 100%;
+	height: 98.57%;	
+	position: absolute;
+	top: 0;
+	color: #fff;
+	opacity: 0;
+	background: rgb(21,51,68);
+}
+
+.box .image1 p {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 30%;
+	color: #fff;
+	opacity: 0;
+	font-size: 1.384615384615385vw;
+	line-height: 2.692307692307692vw;
+	white-space: pre-line;
+	font-family: "DosisMedium"
+}
+
+.box .image1:hover p {
+	opacity: 1;
+	transition: 0.5s all;
+}
+
+.box .image1:hover .descr {
+	opacity: 0.4;
+	transition: 0.5s all;
+}
+
+.box .image1 img {
+	width: 20.15384615384615vw;
+}
+
+.box .button {
+	background: #97b621;
+	border-radius: 50vw;
+	box-shadow: 0vw 0.8461538461538462vw 2.538461538461538vw 0vw rgba(30, 55, 67, 0.26);
+
+}
+
+.box .button a {
+	font-size: 1vw;
+	line-height: 1.692307692307692vw;
+	text-transform: uppercase;
+	color: #fff;
+	display: block;
+	font-family: "DosisBold";
+	padding: 1.153846153846154vw  5.153846153846154vw;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.block1 h1 {
+		font-size: 6.875vw;
+		line-height: 100%;
+	}
+
+	.wrapper {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.wrapper .image {
+		width: 100%;
+	}
+
+	.wrapper .image img {
+		width: 100%;
+	}
+
+	.description {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+		width: 100%;
+		background: #f6fcff;
+		box-shadow: -0.9992307692307691vw 0.5769230769230769vw 2.307692307692308vw 0vw rgba(126, 162, 179, 0.42);
+		padding: 6.25vw 3.125vw;
+		box-sizing: border-box;
+	}
+	
+	.description h2 {
+		font-size: 5.625vw;
+		line-height: 100%;
+		padding: 0;
+		padding-bottom: 3.076923076923077vw;
+	}
+
+	.description p {
+		text-align: center;
+		font-size: 5vw;
+		line-height: 100%;
+		white-space: normal;
+		padding-bottom: 3.076923076923077vw;
+	}
+
+	.description:before {
+		display: none;
+	}
+	
+	.description .button {
+		width: 53vw;
+	}
+
+	.description .button a {
+		font-size: 5vw;
+		line-height: 100%;
+		padding: 2.384615384615385vw 3.230769230769231vw; 
+	}
+
+	.block2 {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column-reverse;
+		margin: 0;
+	}
+
+	.block2 .description1 {
+    padding-left: 3.125vw;
+    }
+
+	.block2 .image {
+		width: 100%;
+	}
+
+	.block2 .image img {
+		width: 100%;
+	}
+
+	.block3 {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		margin: 0;
+	}
+
+	.block3 .image {
+		width: 100%;
+	}
+
+	.block3 .image img {
+		width: 100%;
+	}
+	
+	.block4 .button {
+		width: 70vw;
+	}
+
+	.block4 .button a {
+		font-size: 5vw;
+		line-height: 100%;
+	}
+	
+	.block4 .button a:before {
+		top: 2vw;
+		border-top: 1.669231vw solid transparent;
+	    border-left: 2.038462vw solid #97b621;
+	    border-bottom: 1.669231vw solid transparent;
+	}
+
+	.page-wrapper h1 {
+		font-size: 6.875vw;
+		line-height: 100%;
+	}
+
+	.page-wrapper .holder {
+		flex-flow: row wrap;
+	}
+
+	.page-wrapper .holder .box {
+		width: 48%;
+		box-sizing: border-box;
+		padding-bottom: 3vw;
+	}
+
+	.page-wrapper .holder .box h2 {
+		font-size: 5.625vw;
+		line-height: 100%;
+		text-align: center;
+	}
+
+	.holder .box .button a {
+		font-size: 5vw;
+		line-height: 100%;
+	}
+
+	.holder .box .image1 {
+		width: 100%;
+	}
+
+	.box .image1 p {
+		font-size: 4vw;
+		line-height: 5vw;			
+	}
+
+	.holder .box .image1 img {
+		width: 100%;
+	}
